@@ -3,9 +3,16 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "format": "prettier --write resources/",
+        "format:check": "prettier --check resources/",
+        "lint": "eslint . --fix",
+        "types": "tsc --noEmit"
     },
     "devDependencies": {
+        "@types/bootstrap": "^5.2.10",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
         "bootstrap": "^5.3.3",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",

@@ -1,12 +1,15 @@
-A backend developer-friendly, minimum installation of Laravel, with nearly no packages.
+A backend developer-friendly installation of Laravel, with a BRIT frontend.
+Bootstrap-React-Inertia-Typescript
 Does not have a database connection, a cache connection, a queue, or any frontend.
 Has QoL PHP packages.
 
-## Why
+## Goal
 
-The current starter kits of Laravel require you to understand and use an incredible amount of packages.
-This means setting up a simple stack you might have in mind requires you to clean up everything from some starter kit or the default installation before installing some other stack.
-Instead, I've made this, which can be thought of as a "additive" starting point for Laravel, rather than one that is "subtractive", requiring you to remove packages you don't need.
+An example page is given. It shows the same control, working through Blade, Inertia and pure React. You can use the Network tab of Developer Tools to see the differences in updates
+
+- Pure Blade returns HTML, requires manual DOM manipulation
+- Inertia returns DOM adjustments as a JSON file
+- Pure React has no communication with server
 
 ## License
 
