@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Minimal Laravel</title>
+        <title>Laravel BRIT</title>
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -18,7 +18,8 @@
         </header>
 
         <div>
-            <h1>Welcome to Minimal Laravel</h1>
+            <h1>Welcome to Laravel BRIT</h1>
+            @include('php-component', ['php_counter' => $php_counter])
         </div>
     </body>
 </html>
